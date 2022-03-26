@@ -1,0 +1,54 @@
+body {
+  background-color: #d0d0d0bd;
+}
+
+.col-md-3 {
+  border: 1px solid #351f1f;
+  padding-bottom: 100%;
+}
+
+.col-md-6 {
+  border: 1px solid blue;
+  padding-bottom: 100%;
+}
+
+.encabezado {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  margin: 0%;
+  padding: 2%;
+}
+
+.boton1 {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid blue;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: small;
+  font-weight: 600;
+  color: blue;
+}
+
+.boton2 {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  font-family: inherit;
+  font-size: small;
+  font-weight: 600;
+  color: blue;
+}
+
+h4 {
+  font-size: medium;
+}
+
+h6 {
+  font-size: small;
+  font-weight: 400;
+  text-align: justify;
+}
+/*# sourceMappingURL=Styles.css.map */
