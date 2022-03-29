@@ -1,10 +1,17 @@
 body {
-  background-color: #d0d0d0bd;
+  background-color: #cccccc;
+  width: 100%;
 }
 
 .col-md-3 {
   border: 1px solid #351f1f;
   padding-bottom: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .col-md-6 {
@@ -13,12 +20,14 @@ body {
 }
 
 .encabezado {
-  width: 100%;
-  background-color: white;
+  width: 90%;
+  background-color: #e6e6e6;
   border-radius: 10px;
   border: none;
-  margin: 0%;
-  padding: 2%;
+  padding: 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .boton1 {
@@ -42,13 +51,105 @@ body {
   color: blue;
 }
 
+h6 {
+  font-size: medium;
+  font-weight: 400;
+  text-align: justify;
+}
+
 h4 {
+  font-weight: 400;
+  text-align: justify;
+}
+
+/* Segunda barra  */
+.Nav1 {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.container-fluid {
+  padding: 2%;
+}
+
+.logoss {
+  width: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+/* tercera barra  */
+.other {
+  font-weight: bold;
   font-size: medium;
 }
 
-h6 {
-  font-size: small;
+/* Quinta barra  */
+div.scrollmenu {
+  width: 90%;
+  color: black;
+  overflow: scroll;
+  height: 500px;
+  padding: 10px;
+}
+
+div.scrollmenu a {
+  overflow: scroll;
+  color: black;
+  text-align: center;
+  padding: 2px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #7a8be6;
+  width: 100px;
+}
+
+/* Sexta  barra  */
+.encabezado2 {
+  font-size: medium;
+  font-weight: 800;
+  background-color: #e6e6e6;
+  width: 90%;
+  border-radius: 10px;
+  border: none;
+  padding: 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.texto4 {
+  font-size: medium;
+  font-weight: 800;
+}
+
+.encabezado3 {
+  font-size: medium;
+  font-weight: 800;
+  background-color: #e6e6e6;
+  width: 90%;
+  border-radius: 10px;
+  border: none;
+  padding: 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.texto5 {
+  font-size: medium;
   font-weight: 400;
-  text-align: justify;
+}
+
+.texto6 {
+  font-size: medium;
+  font-weight: 800;
+  color: blue;
 }
 /*# sourceMappingURL=Styles.css.map */
